@@ -5,12 +5,12 @@ Patches also for non-NixOS related fixes are welcome!
 A simple kernel module that allows one to call ACPI methods by writing the
 method name followed by its arguments to `/proc/acpi/call`.
 
-## Notes on akmod
+## Notes on DKMS and Secure Boot
 If that is the way you want to install this module, you can follow 
 [this guide](https://web.archive.org/web/20210215173902/https://gist.github.com/dop3j0e/2a9e2dddca982c4f679552fc1ebb18df) ([mirror](https://gist.github.com/s-h-a-d-o-w/53c2215e955c3326c6ec8f812a0d2f27))
 to have dkms automatically sign the module after building.
 
-## How to install
+## Notes on akmods.
 This fork contains a version of acpi_call packaged as an akmod, used by Red Hat and Co.
 You can get the prebuilt RPMs from the releases tab or compile them yourself.
 ```
